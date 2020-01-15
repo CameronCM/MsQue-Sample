@@ -49,12 +49,14 @@ namespace MqClient
 
                 //a.AnimalType = Console.ReadLine();
 
+                var animalBird = new ClassLibraryDTO.Bird();
 
 
 
                 //Call Method SendMessage and pass object Person
                 SendMessage(p);
                 SendMessage(a);// ?
+                SendMessage(animalBird);// ?
                 
 
             } while (true);

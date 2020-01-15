@@ -77,6 +77,20 @@ namespace ClassLibraryDTO
 
     }
 
+    public class Bird : Animal
+    {
+        public Bird()
+        {
+            AnimalType = "Bird";
+
+        }
+        public override string Talk()
+        {
+            return "tweet";
+        }
+
+    }
+
 
     public class Person
     {

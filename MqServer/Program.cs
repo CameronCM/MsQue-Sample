@@ -29,6 +29,7 @@ namespace MqServer
                     typeof(ClassLibraryDTO.Animal),
                     typeof(ClassLibraryDTO.Dog),
                     typeof(ClassLibraryDTO.Cat),
+                    typeof(ClassLibraryDTO.Bird),
                      typeof(ClassLibraryDTO.Fish)
 
                 }
@@ -52,7 +53,8 @@ namespace MqServer
                 Console.WriteLine($"Favorite animal : {animal.AnimalType} {animal.Talk()}");
 
                     }
-
+            if (obj is ClassLibraryDTO.Bird)
+                Console.WriteLine("The f!@#$ bird got out!");
 
 
             //ClassLibraryDTO.Person person = (ClassLibraryDTO.Person)myMessage.Body;
